@@ -10,7 +10,7 @@ class ConstructorInjectedControllerTest {
 
     @BeforeEach
     void setUp() {
-        //najdobro i najcista implementacija
+        //najdobro i najcista implementacija e so controller
         controller = new ConstructorInjectedController(new ConstructorGreetingService());
     }
     @Test
